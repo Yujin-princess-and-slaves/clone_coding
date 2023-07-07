@@ -49,20 +49,26 @@
     margin: 4px;
 }
 .hongseop{
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border-radius: 70%;
     overflow: hidden;
 }
 .jiwoo{
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border-radius: 70%;
     overflow: hidden;
 }
 .Yejin{
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+.Yujin{
+    width: 75px;
+    height: 75px;
     border-radius: 70%;
     overflow: hidden;
 }
