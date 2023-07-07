@@ -72,3 +72,38 @@
     border-radius: 70%;
     overflow: hidden;
 }
+.home{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.search{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.video{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.send{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.good{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.send{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.plus{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
