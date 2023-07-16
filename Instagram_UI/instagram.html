@@ -1,12 +1,298 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" />
 </head>
+
 <body>
-    
+  <div class="none"></div>
+  <div class="main_body">
+    <div class="container">
+        <div class="aa_logo">
+          <img src="./img/instagram_logo.png" alt="Image 1">
+        </div>
+        <div class="item">
+          <img src="./img/homepage.png" alt="Image 2">
+          <span>홈</span>
+        </div>
+        <div class="item">
+          <img src="./img/search.png" alt="Image 3">
+          <span>검색</span>
+        </div>
+        <div class="item">
+          <img src="./img/video.png" alt="Image 4">
+          <span>릴스</span>
+        </div>
+        <div class="item">
+          <img src="./img/send.png" alt="Image 5">
+          <span>메시지</span>
+        </div>
+        <div class="item">
+          <img src="./img/good.png" alt="Image 6">
+          <span>알림</span>
+        </div>
+        <div class="item">
+          <img src="./img/plus.png" alt="Image 7">
+          <span>만들기</span>
+        </div>
+        <div class="aa">
+        <div class="item">
+          <img src="./img/pokemon.jpg" alt="프로필">
+          <span>프로필</span>
+        </div>
+        </div>
+        <div class="bb">
+        <div class="item">
+          <img src="./img/detail.svg" alt="Image 10">
+          <span>더보기</span>
+        </div>
+        </div>
+      </div>
+    <article>
+      <div class="story">
+        <ul class="story_list">
+          <li class="sub_story">
+            <div class="text">
+              <img src="./img/jiwoo.png" alt="프로필">
+              <span>0.0_wji</span>
+            </div>
+          </li>
+          <li>
+            <div class="sub_story">
+              <div class="text">
+                <img src="./img/Yejin.jpg" alt="프로필">
+                <span>skdskdrla</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sub_story">
+              <div class="text">
+                <img src="./img/hongseop.jpg" alt="프로필">
+                <span>wjd_ghdtjq</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sub_story">
+              <div class="text">
+                <img src="./img/Yujin.jpg" alt="프로필">
+                <span>jeon_yujin65</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sub_story">
+              <div class="text">
+                <img src="./img/onion.jpg" alt="프로필">
+                <span>onion</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sub_story">
+              <div class="text">
+                <img src="./img/basic1.jpg" alt="프로필">
+                <span>hanjxe_01</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sub_story">
+              <div class="text">
+                <img src="./img/basic3.jpg" alt="프로필">
+                <span>hee_juk_yee</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="empty_box"></div>
+      <div class="feed">
+        <div class="feed_id">
+          <div class="id_round">
+            <div class="id_box">
+              <div class="id_box_img">
+                <img class="id_img" src="./img/pokemon.jpg" alt="내 프로필">
+              </div>
+              <div class="id_container">
+                <div class="id_name">ha2hi_zzx</div>
+                <div class="place">이이이이잉</div>
+              </div>
+            </div>
+            <div class="more_details">
+              <img src="./img/detail.svg" alt="더보기">
+            </div>
+          </div>
+        </div>
+        <div class="feed_picture">
+          <img src="./img/images.jpg" alt="피드 사진">
+        </div>
+        
+        <!--feedbottom-->
+        <div class="feed_bottom">
+          <div class="emoticon_box">
+            <div class="emoticon_box2">
+              <div class="heart_box">
+                <img class="heart" src="./img/good.png" alt="하트">
+              </div>
+              <div class="comment_box">
+                <img class="coment" src="./img/comment.png" alt="코멘트" />
+              </div>
+              <div class="direct_box">
+                <img class="direct" src="./img/send.png" alt="종이비행기" />
+              </div>
+            </div>
+            <div class="bookmark_box">
+              <img class="bookmark" src="./img/bookmark.png" alt="공유" />
+            </div>
+          </div>
+        </div>
+        <div class="feed_like_box">
+          <div class="feed_like_picture">
+            <img class="feed_like_peolpe" src="./img/pokemon.jpg" alt="세원">
+          </div>
+          <div class="feed_like">ha2hi_zzx님 외 69명이 좋아합니다.</div>
+        </div>
+        <div class="feed_article">
+          <div class="feed_article_box">
+            <div class="comments_container">
+              <div class="comments">ha2hi_zzx 이이잉 기모링~~~~~~...</div>
+              <div class="comments1">더 보기</div>
+            </div>
+            <div class="comments1">댓글 <span id="count"></span> 모두 보기</div>
+            <div class="comments1_box">
+              <div class="comments">jone 오우 폭 맨 쉬엣뜨</div>
+              <div class="comments">qocn16 홀리몰리 과카몰리 롤리폴리 로보카폴리</div>
+              <div class="comments">djWjfxlql 오 정말 멋진걸요?</div>
+            </div>
+            <div class="new_comments">
+            </div>
+            <div class="comments2">1만년 전</div>
+          </div>
+        </div>
+        <div class="inputContainer">
+          <div class="type_comment">
+            <input class="inputBox" type="text" placeholder="댓글 달기...">
+          </div>
+          <span>
+            <button class="buttonBox" type="summit">게시</button>
+          </span>
+        </div>
+      </div>
+    </article>
+
+
+    <aside>
+      <div class="feed_right_container">
+        <div class="my_profile">
+          <div class="profile_none">
+            <div class="my_profile_box1">
+              <img src="./img/pokemon.jpg" alt="내 프로필">
+            </div>
+            <div class="my_profile_id">ha2hi_zzx</div>
+          </div>
+        </div>
+        <div class="recommendation_box">
+          <div class="recommendation">회원님을 위한 추천</div>
+          <div class="comment">모두 보기</div>
+        </div>
+        <div class="users">
+          <div class="user">
+            <div class="my_profile_box2">
+              <img src="./img/basic2.jpg" alt="내 프로필">
+            </div>
+            <div class="my_profile_main_box">
+              <div class="my_profile_id_box">
+                <div class="my_profile_id1">hey_hey</div>
+                <div class="my_profile_id2">jone님 외 74명이 팔로우합니다</div>
+              </div>
+              <div class="follow">팔로우</div>
+            </div>
+          </div>
+          <div class="user">
+            <div class="my_profile_box2">
+              <img src="./img/board.jpg" alt="내 프로필">
+            </div>
+            <div class="my_profile_main_box">
+              <div class="my_profile_id_box">
+                <div class="my_profile_id1">LOVE_AJR</div>
+                <div class="my_profile_id2">djWjfxlql님 외 8282명이 팔로우합니다</div>
+              </div>
+              <div class="follow">팔로우</div>
+            </div>
+          </div>
+          <div class="user">
+            <div class="my_profile_box2">
+              <img src="./img/basic4.jpg" alt="내 프로필">
+            </div>
+            <div class="my_profile_main_box">
+              <div class="my_profile_id_box">
+                <div class="my_profile_id1">djWjfxlql_love</div>
+                <div class="my_profile_id2">hs.hon1님 외 100명이 팔로우안합니다</div>
+              </div>
+              <div class="follow">팔로우</div>
+            </div>
+          </div>
+          <div class="user">
+            <div class="my_profile_box2">
+              <img src="./img/black.png" alt="내 프로필">
+            </div>
+            <div class="my_profile_main_box">
+              <div class="my_profile_id_box">
+                <div class="my_profile_id1">Nigger</div>
+                <div class="my_profile_id2">blackman님 외 N명이 팔로우합니다</div>
+              </div>
+              <div class="follow">팔로우</div>
+            </div>
+          </div>
+          <div class="user">
+            <div class="my_profile_box2">
+              <img src="./img/rnlcksgdk.png" alt="내 프로필">
+            </div>
+            <div class="my_profile_main_box">
+              <div class="my_profile_id_box">
+                <div class="my_profile_id1">rnlcksgdk</div>
+                <div class="my_profile_id2">whffu님 외 1명이 팔로우합니다</div>
+              </div>
+              <div class="follow">팔로우</div>
+            </div>
+          </div>
+        </div>
+        <div class="other_box">
+          <div class="other1">
+            <span class="span1">소개</span>
+            <span class="span1">도움말</span>
+            <span class="span1">∙</span>
+            <span class="span1">홍보 센터</span>
+            <span class="span1">∙</span>
+            <span class="span1">API</span>
+            <span class="span1">∙</span>
+            <span class="span1">채용 정보</span>
+            <span class="span1">∙</span>
+            <span class="span1">개인정보처리방침</span>
+            <span class="span1">∙</span></br>
+          </div>
+          <div class="other2">
+            <span class="span1">약관</span>
+            <span class="span1">∙</span>
+            <span class="span1">위치</span>
+            <span class="span1">∙</span>
+            <span class="span1">언어</span>
+            <span class="span1">∙</span>
+            <span class="span1">Meta Verified</span>
+          </div>
+        </div>
+        <div class="other_box">
+          <span class="span1">© 2023 INSTAGRAM FROM META</span>
+        </div>
+      </div>
+    </aside>
+  </div>
 </body>
+
 </html>
