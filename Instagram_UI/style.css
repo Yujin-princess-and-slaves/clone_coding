@@ -59,7 +59,12 @@
     margin: 16px 0px 0px;
     padding: 16px 0px;
     white-space:nowrap; 
-    overflow:auto;  width:600px; height:150px;
+    overflow:auto;
+    width:600px;
+    height:150px;
+    border: 1px solid #ccc;
+    border-radius: 1%;
+    text-align: center;
 }
 .insta--story{
     display: flex;
@@ -79,7 +84,7 @@ li {
 
 .story img{
     display: flex;
-    margin: 30px 8px 0;
+    margin: 30px 12px 0;
     width: 56px;
     height: 56px;
     border-radius: 70%;
